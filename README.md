@@ -1,4 +1,6 @@
-## Yelp Dataset Challenge: Business Embeddings
+## Yelp Embeddings
+
+This repo references https://github.com/acocos/business_embeddings, updates and fixed bugs from the original repo
 
 This repo contains code used to generate business embeddings for the Yelp Academic Dataset as detailed in [this blog](http://seas.upenn.edu/~acocos/yelp/place_embeddings.html).
 
@@ -6,7 +8,7 @@ This repo contains code used to generate business embeddings for the Yelp Academ
 
 | file/directory | description | 
 | --- | --- |
-| `src/pipeline.sh` | This script demonstrates how to extract business/context pairs from the Yelp data and use them to train word embeddings using `word2vecf`. You can run this pipeline (after downloading the Yelp data and installing `word2vecf`, see below). Or you can just download the resulting vectors [here](http://seas.upenn.edu/~acocos/yelp/yelp.t10.zip) and get started. |
+| `src/pipeline.sh` | This script demonstrates how to extract business/context pairs from the Yelp data and use them to train word embeddings using `word2vecf`. You can run this pipeline (after downloading the Yelp data and installing `word2vecf`, see below).  |
 | `src/extract_contexts.py` | Generates business/context pairs from the Yelp data |
 | `src/infer.py` | Script from the original `word2vecf` code, useful for loading and manipulating the resulting vectors |
 | `src/examine_places.py` | Script used to produce results given in blog post |
