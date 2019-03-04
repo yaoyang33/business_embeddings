@@ -12,7 +12,7 @@ from nltk.tokenize import word_tokenize
 from extract_contexts import get_business_tags
 
 businessfile = '../yelp_dataset_challenge_academic_dataset/yelp_academic_dataset_business.json'
-reviewfile = '../yelp_dataset_challenge_academic_dataset/yelp_academic_dataset_business.json'
+reviewfile = '../yelp_dataset_challenge_academic_dataset/yelp_academic_dataset_review.json'
 
 # get tag vocab
 c = Counter()
